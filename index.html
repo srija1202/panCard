@@ -472,9 +472,9 @@
           <input type="checkbox" name="" id="" />
         </td>
         <td><span>*</span><b>12.AADHAAR Number:</b></td>
-        <td style="height: fit-content;"><input type="text" size="33px"/><br>
+        <td style="height: fit-content;"><input type="text" size="33px" /><br>
           <i style="color: blue;">In case AADHAAR number is provided,<br>
-            then proof of AADHAAR along with supporting documents is to be submitted to NSDLas per the enrollment ID of Aadhaar application form</i>
+            then proof of AADHAAR along with supporting documents is to be submitted to NSDL</i>
         </td>
       </tr>
       <tr>
@@ -484,7 +484,7 @@
         <td><span>*</span>Name as per AADHAAR letter<br>
           or<br>
           as per the enrollment ID of Aadhaar application form</td>
-        <td><input type="text" size="33px"/><br>
+        <td><input type="text" size="33px" /><br>
         </td>
       </tr>
       <tr>
@@ -500,7 +500,7 @@
         </td>
         <td colspan="2">
           <b>14. Mention other Permanent Account Numbers (PANs) If any inadvertently allotted to you.<u
-            style="color: black;">Submit proof of surrendered PAN(s) along with the application.</u></b>
+              style="color: black;">Submit proof of surrendered PAN(s) along with the application.</u></b>
         </td>
       </tr>
       <tr>
@@ -519,8 +519,85 @@
           <b>15. Verification</b>
         </td>
       </tr>
+      <tr>
+        <td></td>
+        <td colspan="2">
+          I/We <input type="text" size="70px" style="margin-left: 20px;"/> 
+           ,the applicant, in the capacity of   
+         <select style="width: 355px; margin-left: 20px; margin-right: 5px;" name="" >
+            <option value="1">---Please select--</option>
+          </select> do hereby declare that what is stated above is true to the best of my information and belief<br>
+          I have enclosed  <input type="text" size="5px" style="margin-left: 10px;"/> (number of documents) in support of proposed changes/corrections.
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2">Place <input type="text" size="33px" style="margin-left: 20px;"/> </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"><p style="margin-left: 100px;">DD MM YYYY</p>
+          <p id="todayDate">Verified today, the <script>document.write(new Date().toISOString().split('T')[0]);</script></p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2">
+          I/We have enclosed <br>
+          <select style="width: 1430px;" name="" >
+            <option value="1">---Please select--</option>
+          </select> as proof of identity, 
+          <select style="width: 1000px;" name="" >
+            <option value="1">---Please select--</option>
+          </select> as proof of address, 
+          <select style="width: 1320px;" name="" >
+            <option value="1">---Please select--</option>
+          </select> as proof of date of birth
+          and <select style="width: 200px;" name="" >
+            <option value="1">---Please select--</option>
+          </select> as proof of PAN card allotted.
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"><b>Whether you wish to have?</b>
+          <input type="radio" name="" id="aadhaar" style="margin-left: 40px;">
+          <label for="aadhaar">Physical PAN card & e-Pan card</label>
+          <input type="radio" name="" id="eid" style="margin-left: 30px;">
+          <label for="eid">Only e-Pan card</label>
+          <b style="margin-left: 40px;"><u style="color: black;">Fees Applicable</u></b>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"><b>Other Details</b>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"><b>1. Depository Account Details</b>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2">
+          <b><label for="dp">DP ID:</label></b><input type="text" size="20px" id ="dp" style="margin-right: 50px; margin-left: 10px;"/>
+          <b><label for="client">Client ID:</label></b><input type="text" size="20px" id ="client" style="margin-right: 50px; margin-left: 10px;"/>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"><b>2. Payment Details</b>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 3px; padding: 2px">
+          <input type="radio" name="" id="" />
+        </td>
+        <td colspan="2"><b>Online Payment</b>
+        </td>
+      </tr>
     </tbody>
   </table>
 </body>
-
 </html>
